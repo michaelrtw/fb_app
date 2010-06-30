@@ -1,0 +1,20 @@
+<h1>New user</h1>
+
+<% form_for(@user, :url => "http://web1.tunnlr.com:11017/users", :html => { :multipart => true }) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :picture %><br />
+    <%= f.file_field :picture %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', users_path %>

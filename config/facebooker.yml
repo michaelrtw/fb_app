@@ -1,0 +1,39 @@
+development:
+  api_key: 3f3f4afba14b0cf3a92939620aa2fb67
+  secret_key: 8eb661b46d4b8b049a5d7418ad6cf2f4
+  canvas_page_name: uend_dev_mike
+  callback_url: http://web1.tunnlr.com:11017
+  pretty_errors: true
+  set_asset_host_to_callback_url: true
+  tunnel:
+    public_host_username: tunnlr1481
+    public_host: ssh1.tunnlr.com
+    public_port: 11017
+    local_port: 3000
+    server_alive_interval: 0
+
+test:
+  api_key: 
+  secret_key: 
+  canvas_page_name: 
+  callback_url:
+  set_asset_host_to_callback_url: true
+  tunnel:
+    public_host_username: 
+    public_host: 
+    public_port: 4007
+    local_port: 3000
+    server_alive_interval: 0
+
+production:
+  api_key: 
+  secret_key: 
+  canvas_page_name: 
+  callback_url: 
+  set_asset_host_to_callback_url: true   
+  tunnel:
+    public_host_username: 
+    public_host: 
+    public_port: 4007
+    local_port: 3000
+    server_alive_interval: 0
